@@ -751,5 +751,14 @@
     "Create a task": "Créer une tâche",
     "Title": "Titre",
     "Detail": "Détail",
-    "Send": "Envoyer"
+    "Send": "Envoyer",
+    "Task done": "Tâche accomplie",
+    "Show a task": "Voir une tâche",
+    "State": "Etat",
+    "Date creation": "Date de création",
+    "Last update": "Dernière modification",
+    "Done": "Effectuée",
+    "Tasks List": "Liste des tâches",
+    "To do": "A faire",
+    "Show": "Voir"
 }

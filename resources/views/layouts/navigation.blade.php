@@ -10,13 +10,23 @@
                     </a>
                 </div>
 
-                <!-- Navigation Links -->
-                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
-                    </x-nav-link>
-                </div>
+                        <!-- Navigation Links -->
+            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
+                    {{ __('Dashboard') }}
+                </x-nav-link>
             </div>
+            
+            <!-- Lien pour la création d'une tâche -->
+            <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                <x-nav-link :href="route('tasks.create')" :active="request()->routeIs('tasks.create')">
+                    {{ __('Create a task') }}
+                </x-nav-link>
+                <x-nav-link :href="route('tasks.index')" :active="request()->routeIs('tasks.index')">
+                    {{ __('Tasks list') }}
+                </x-nav-link>
+            </div>
+        </div>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ml-6">
