@@ -29,7 +29,7 @@
                             @lang('Show')
                         </x-link-button>
                         <x-link-button href="{{ route('tasks.edit', $task->id) }}">
-                            @lang('edit')
+                            @lang('Edit')
                         </x-link-button>
                         <x-link-button onclick="event.preventDefault(); document.getElementById('destroy{{ $task->id }}').submit();">
                             @lang('Delete')
